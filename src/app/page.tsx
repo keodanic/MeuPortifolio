@@ -1,8 +1,12 @@
-import Image from "next/image";
 
-export default function Home() {
+import Nav from "./components/navbar/nav";
+import Home from "./pages/home/page";
+
+export default function Main() {
   return (
-    
-   <div></div>
+   <div>
+     <Nav/>
+     <Home/>
+   </div>
   );
 }
