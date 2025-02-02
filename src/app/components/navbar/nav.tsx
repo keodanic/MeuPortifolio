@@ -7,7 +7,9 @@ const Nav = () => {
             <a className="hover:text-xl hover:text-slate-500" href="#">Projetos</a>
             </div>
 
-            <a className=" bg-black rounded-2xl w-32 h-10 text-slate-100 flex justify-center items-center hover:bg-slate-300 hover:text-black" href="#">Fale Comigo</a>
+            <a className=" bg-black rounded-2xl w-32 h-10 text-slate-100 flex justify-center items-center hover:bg-slate-300 hover:text-black" href="#">
+                Fale Comigo
+                </a>
         </div>
      );
 }
