@@ -1,7 +1,8 @@
 const DivProjects = () => {
     return ( 
-        <div className="bg-blue-950 h-[700px] w-[80%] p-14">
+        <div className="bg-blue-950 h-[700px] w-full p-14">
             <h1 className="text-6xl text-slate-100 font-bold">Projetos</h1>
+            
         </div>
      );
 }

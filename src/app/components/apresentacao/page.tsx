@@ -1,6 +1,6 @@
 const Hello = () => {
     return (
-        <div >
+        <div>
         <div>
           <div className="text-2xl flex gap-3">
             <h1>Olá, eu</h1>
