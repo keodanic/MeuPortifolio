@@ -22,8 +22,10 @@ const Skills = () => {
         {nome:"REACT NATIVE", logo:<BiLogoAndroid/>},
     ]
     return ( 
-      
+      <div>
+        <h1 className="text-2xl text-blue-950 font-bold">HABILIDADES/SKILLS</h1>
       <div className="flex flex-wrap gap-3 h-[200px] w-[640px] bg-blue-950 p-5 rounded-xl">
+        
       {logos.map((icone, index) => (
         <div key={index} className="relative group">
           {React.cloneElement(icone.logo, {
@@ -34,6 +36,7 @@ const Skills = () => {
           </span>
         </div>
       ))}
+      </div>
     </div>
      );
 }
