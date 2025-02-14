@@ -1,6 +1,8 @@
+import AboutMe from "@/app/components/aboutMe";
 import Hello from "@/app/components/apresentacao/page";
 import DivProjects from "@/app/components/projects/page";
 import Skills from "@/app/components/skills";
+
 
 const Home = () => {
   return (
@@ -8,11 +10,11 @@ const Home = () => {
       <div className="p-16 flex flex-col gap-6">
         <Hello />
         <Skills/>
-        
       </div>
       
-      <div className=" flex justify-center items-center m-10">
-        <DivProjects />
+      <div className=" flex flex-col justify-center gap-8  m-10">
+      <DivProjects />
+      <AboutMe/>
       </div>
     </div>
   );

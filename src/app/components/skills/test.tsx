@@ -6,7 +6,7 @@ import { BiLogoPostgresql,BiLogoAndroid } from "react-icons/bi";
 const Test = () => {
     return ( 
         <div className="flex flex-wrap gap-3 h-[200px] w-[640px] bg-blue-950 p-5">
-            <SiPython className="w-[4rem] h-[4rem] bg-slate-100 p-2 rounded-2xl hover:scale-125 hover:bg-black hover:text-yellow-500"/>
+            <SiPython className="w-[4rem] h-[4rem] bg-slate-100 p-2 rounded-2xl hover:scale-125 hover:bg-blue-900 hover:text-yellow-500"/>
             <SiJavascript className="w-[4rem] h-[4rem] bg-slate-100 p-2 rounded-2xl hover:scale-125"/>
             <LiaNode className="w-[4rem] h-[4rem] bg-slate-100 p-2 rounded-2xl hover:scale-125"/>
             <SiTypescript className="w-[4rem] h-[4rem] bg-slate-100 p-2 rounded-2xl hover:scale-125"/>
