@@ -1,3 +1,6 @@
+"use client"
+
+import { redirect } from "next/navigation";
 import { BiLogoAndroid, BiLogoPostgresql } from "react-icons/bi";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 import { GoArrowRight } from "react-icons/go";
@@ -37,10 +40,11 @@ Essa solução visa proporcionar uma experiência intuitiva e eficiente para o g
             tags: [ <SiTypescript />, <SiNestjs />, <BiLogoPostgresql />,<SiPrisma/>,<SiNextdotjs />]
         },
 
-
-
     ]
 
+    function Redi(){
+        redirect("/projetos")
+    }
     return (
         <div className="bg-blue-950 h-auto w-full p-14 rounded-x flex-wrap ">
             <h1 className="text-6xl text-slate-100 font-bold">Projetos</h1>
@@ -48,7 +52,7 @@ Essa solução visa proporcionar uma experiência intuitiva e eficiente para o g
 
                 {projs.map((projetos, index) => (
                     <div key={index} className="flex gap-16 shadow-2xl p-10 shadow-black justify-center mt-4 hover:scale-105">
-                        <div className="text-slate-100 w-[750px] flex-wrap flex gap-3">
+                        <div className="text-slate-100 w-4xl  flex-wrap flex gap-3">
                             <div className="flex gap-4 items-center  w-[750px] justify-between">
                                 <h1 className="text-3xl font-bold">{projetos.name}</h1>
                                 <h1 className="flex p-2 gap-3 text-3xl ">{projetos.tags}</h1>

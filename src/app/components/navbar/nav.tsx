@@ -4,7 +4,7 @@ const Nav = () => {
             <div className="gap-8 flex ">
 
             <a className="hover:scale-125 hover:text-slate-500" href="#">Sobre Mim</a>
-            <a className="hover:scale-125 hover:text-slate-500" href="#">Projetos</a>
+            <a className="hover:scale-125 hover:text-slate-500" href="projetos">Projetos</a>
             </div>
 
             <a className=" bg-black rounded-2xl w-32 h-10 text-slate-100 flex justify-center items-center hover:bg-slate-300 hover:text-black" href="#">

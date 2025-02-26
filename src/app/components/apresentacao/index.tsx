@@ -1,5 +1,7 @@
 "use client"
 import { use, useEffect, useState } from "react";
+import Image from "next/image"
+import minhaImagem from "../../../assets/img/LogoTipo2-big.png"
 
 const Hello = () => {
   const frases = ["Victor Daniel", "Desenvolvedor Full-Stack"]
@@ -37,9 +39,11 @@ const Hello = () => {
         <h1>Olá, eu</h1>
         <h1 className="text-blue-950 font-extrabold">sou</h1>
       </div>
-      <div className="flex">
+      <div className="flex justify-between">
+        
         <h1 className="text-4xl font-bold">{texto} </h1>
         <span className="text-3xl font-bold animate-ping">|</span>
+      
       </div>
 
     </div>

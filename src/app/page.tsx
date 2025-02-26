@@ -1,6 +1,6 @@
 
 import Nav from "./components/navbar/nav";
-import Home from "./pages/home/page";
+import Home from "./home/page";
 
 export default function Main() {
   return (
