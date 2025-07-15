@@ -23,10 +23,10 @@
             "Autenticação JWT"
         ],
         "images": [
-            "/projects/freelant/freelant-cadastro.png",
-            "/projects/freelant/freelant-HomeFreela.png",
-            "/projects/freelant/Chat.png",
-            "/projects/freelant/HomeUser.png"
+            "/projects/Freelant/freelantCadastro.png",
+            "/projects/Freelant/freelantHomeFreela.png",
+            "/projects/Freelant/chat.png",
+            "/projects/Freelant/homeUser.png"
         ],
         "github": null,
         "isPrivate": true
@@ -51,10 +51,10 @@
             "web"
         ],
         "images": [
-            "/projects/Any-recipe/criar_recipes.png",
-            "/projects/Any-recipe/home_recipes.png",
-            "/projects/Any-recipe/login_recipes.png",
-            "/projects/Any-recipe/recipeId.png"
+            "/projects/Any-Recipe/criarRecipes.png",
+            "/projects/Any-Recipe/homeRecipes.png",
+            "/projects/Any-Recipe/loginRecipes.png",
+            "/projects/Any-Recipe/recipeId.png"
         ],
         "github": "https://github.com/LPeter-nm/recipe-front-end",
         "isPrivate": false
