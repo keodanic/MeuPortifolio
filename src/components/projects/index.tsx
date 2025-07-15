@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { BiLogoAndroid, BiLogoPostgresql } from "react-icons/bi";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
-import { SiExpo, SiExpress, SiNestjs, SiNextdotjs, SiPrisma, SiReact, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiExpo, SiNestjs, SiNextdotjs, SiPrisma, SiReact, SiTailwindcss, SiTypescript } from "react-icons/si";
 import Image from "next/image";
 
 const DivProjects = () => {
