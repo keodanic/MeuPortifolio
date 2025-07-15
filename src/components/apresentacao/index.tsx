@@ -1,8 +1,11 @@
 "use client"
 import { useEffect, useState } from "react";
 
+// O array 'frases' foi movido para fora do componente.
+const frases = ["Victor Daniel", "Desenvolvedor Full-Stack"];
+
 const Hello = () => {
-  const frases = ["Victor Daniel", "Desenvolvedor Full-Stack"];
+  // A declaração não está mais aqui.
   const [fraseIndex, setFraseIndex] = useState(0);
   const [apagado, setApagado] = useState(false);
   const [texto, setTexto] = useState("");
@@ -26,8 +29,7 @@ const Hello = () => {
         setFraseIndex((prev) => (prev + 1) % frases.length);
       }
     }
-    // A correção está nesta linha:
-  }, [texto, apagado, fraseIndex, frases]);
+  }, [texto, apagado, fraseIndex]); // 'frases' pode ser removido das dependências pois agora é estável.
 
   return (
     <div className="w-full">

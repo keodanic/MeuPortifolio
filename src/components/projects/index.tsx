@@ -60,8 +60,8 @@ const DivProjects = () => {
               </div>
               <div className="flex flex-wrap gap-2 text-xl">
                 {project.tags.map((tag) => (
-                  // Esta parte já estava certa, mas agora o "tag" já vem com a key
-                  <span className="bg-blue-950 p-2 rounded-lg text-white">
+                  // A correção final está nesta linha:
+                  <span key={tag.key} className="bg-blue-950 p-2 rounded-lg text-white">
                     {tag}
                   </span>
                 ))}
