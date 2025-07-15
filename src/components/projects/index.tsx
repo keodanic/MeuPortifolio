@@ -23,9 +23,9 @@ const DivProjects = () => {
     {
       id: "monitoring",
       name: "Monitoring CO2",
-      description: `O Any Recipe é uma aplicação desenvolvida para facilitar o cadastro, organização e gerenciamento de receitas culinárias...`,
+      description: `Plataforma para monitorar o gás CO2 no IFMA Campus Timon.`,
       tags: [
-        <SiNextdotjs key="m-1" />, <SiTypescript key="m-2" />, <SiExpress key="m-3" />,
+        <SiNextdotjs key="m-1" />, <SiTypescript key="m-2" />, <SiNestjs key="m-3" />,
         <SiTailwindcss key="m-4" />, <BiLogoPostgresql key="m-5" />, <SiPrisma key="m-6" />
       ],
       image: "/projects/MonitoringCO2/history.png" 
@@ -33,7 +33,7 @@ const DivProjects = () => {
     {
       id: "multirao",
       name: "Fundação Report",
-      description: `Freela desenvolvido para uma empresa associada ao governo do Piauí que permite o cadastro.`,
+      description: `Freela desenvolvido para uma empresa associada ao governo do Piauí que permite o cadastro de eventos sociais juntamente com cada paciente atendido.`,
       tags: [
         <SiTypescript key="r-1" />, <SiNestjs key="r-2" />, <BiLogoPostgresql key="r-3" />,
         <SiPrisma key="r-4" />, <SiNextdotjs key="r-5" />

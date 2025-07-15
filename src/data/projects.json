@@ -63,7 +63,7 @@
         "id": "multirao",
         "name": "Fundação Report",
         "shortDescription": "Plataforma para cadastrar e gerar relatórios médicos via PDF ou Excel.",
-        "fullDescription": "Freela desenvolvido para uma empresa associada ao governo do Piauí que permite o cadastro.",
+        "fullDescription": "Freela desenvolvido para uma empresa associada ao governo do Piauí que permite o cadastro de eventos sociais juntamente com cada paciente atendido.",
         "technologies": [
             "Next.js",
             "TypeScript",
