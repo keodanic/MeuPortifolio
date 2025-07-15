@@ -38,7 +38,7 @@ const Nav = () => {
             <div className="flex-shrink-0 flex items-center">
               
               <Image
-                src="/logo.png" 
+                src="/logoVictor.png" 
                 alt="Logo"
                 width={40}
                 height={40}
