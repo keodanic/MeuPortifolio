@@ -1,5 +1,5 @@
 
-import Nav from "./components/navbar/nav";
+import Nav from "../components/navbar/nav";
 import Home from "./home/page";
 
 export default function Main() {

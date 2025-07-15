@@ -1,0 +1,123 @@
+[
+    {
+        "id": "freelant-app",
+        "name": "Freelant",
+        "shortDescription": "App para freelancers em Timon-MA",
+        "fullDescription": "Aplicativo mobile desenvolvido para meu TCC com o intuito de conectar freelancers e clientes, chat integrado e sistema de avaliações.",
+        "technologies": [
+            "React Native",
+            "NestJS",
+            "PostgreSQL",
+            "Prisma",
+            "SocketIO",
+            "NativeWind",
+            "Expo-Router"
+        ],
+        "tags": [
+            "mobile",
+            "fullstack"
+        ],
+        "features": [
+            "Chat integrado via SocketIO",
+            "Requisição para solicitar serviço",
+            "Autenticação JWT"
+        ],
+        "images": [
+            "/projects/freelant/freelant-cadastro.png",
+            "/projects/freelant/freelant-HomeFreela.png",
+            "/projects/freelant/Chat.png",
+            "/projects/freelant/HomeUser.png"
+        ],
+        "github": null,
+        "isPrivate": true
+    },
+    {
+        "id": "any-recipe",
+        "name": "Any Recipe",
+        "shortDescription": "Plataforma de receitas culinárias",
+        "fullDescription": "Sistema para cadastro e organização de receitas com busca por ingredientes e modo de preparo.",
+        "technologies": [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "AdonisJS"
+        ],
+         "features": [
+            "Cadastrar e excluir receita",
+            "Filtrar Receitas",
+            "Autenticação JWT"
+        ],
+        "tags": [
+            "web"
+        ],
+        "images": [
+            "/projects/Any-recipe/criar_recipes.png",
+            "/projects/Any-recipe/home_recipes.png",
+            "/projects/Any-recipe/login_recipes.png",
+            "/projects/Any-recipe/recipeId.png"
+        ],
+        "github": "https://github.com/LPeter-nm/recipe-front-end",
+        "isPrivate": false
+    },
+    {
+        "id": "multirao",
+        "name": "Fundação Report",
+        "shortDescription": "Plataforma para cadastrar e gerar relatórios médicos via PDF ou Excel.",
+        "fullDescription": "Freela desenvolvido para uma empresa associada ao governo do Piauí que permite o cadastro.",
+        "technologies": [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "NestJS"
+        ],
+        "tags": [
+            "web"
+        ],
+        "features": [
+            "Geração de PDF/Excel",
+            "Dashboard administrativo",
+            "Autenticação JWT"
+        ],
+        "images": [
+            "/projects/Fundacao-Report/multiraoHome.png",
+            "/projects/Fundacao-Report/multiraoLogin.png",
+            "/projects/Fundacao-Report/multiraoDoctor.png",
+            "/projects/Fundacao-Report/multiraoCadastro.png",
+            "/projects/Fundacao-Report/multiraoModal.png",
+            "/projects/Fundacao-Report/multiraoRelatorio.png",
+            "/projects/Fundacao-Report/multiraoReports.png"
+        ],
+        "github": null,
+        "isPrivate": true
+    },
+     {
+        "id": "monitoringco2",
+        "name": "Monitoring CO2",
+        "shortDescription": "Plataforma para monitorar o gás CO2 no IFMA Campus Timon.",
+        "fullDescription": "Este projeto foi desenvolvido como um projeto de pesquisa em que atuei como bolsista. Após a confecção e intalação dos sensores, as medições sõa enviadas para nosso back-end e podem ser visualizadas no front-end, além disso é possivel visualizar os dados de dias anteriores e gerar um relatório delas.",
+        "technologies": [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "NestJS",
+            "Arduino",
+            "ESP-32",
+            "Postgresql"
+        ],
+        "tags": [
+            "web"
+        ],
+        "features": [
+            "Geração de PDF",
+            "Integração com Arduino",
+            "Monitoramento inteligente",
+            "Visualização de dados semanais"
+        ],
+        "images": [
+            "/projects/MonitoringCO2/home.png",
+            "/projects/MonitoringCO2/history.png"
+        ],
+        "github": null,
+        "isPrivate": true
+    }
+]
