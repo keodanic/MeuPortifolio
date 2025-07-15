@@ -26,22 +26,23 @@ const Hello = () => {
         setFraseIndex((prev) => (prev + 1) % frases.length);
       }
     }
-  }, [texto, apagado]);
+    // A correção está nesta linha:
+  }, [texto, apagado, fraseIndex, frases]);
 
   return (
-  <div className="w-full">
-    <div className="text-xl md:text-2xl lg:text-3xl flex gap-2">
-      <h1>Olá, eu</h1>
-      <h1 className="text-blue-950 font-extrabold">sou</h1>
+    <div className="w-full">
+      <div className="text-xl md:text-2xl lg:text-3xl flex gap-2">
+        <h1>Olá, eu</h1>
+        <h1 className="text-blue-950 font-extrabold">sou</h1>
+      </div>
+      <div className="flex items-center gap-2 mt-2">
+        <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold min-h-[3rem] md:min-h-[4rem]">
+          {texto}
+        </h1>
+        <span className="text-xl md:text-3xl font-bold animate-ping opacity-75">|</span>
+      </div>
     </div>
-    <div className="flex items-center gap-2 mt-2">
-      <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold min-h-[3rem] md:min-h-[4rem]">
-        {texto}
-      </h1>
-      <span className="text-xl md:text-3xl font-bold animate-ping opacity-75">|</span>
-    </div>
-  </div>
-);
+  );
 };
 
 export default Hello;

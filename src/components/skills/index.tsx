@@ -1,5 +1,5 @@
 import { SiJavascript, SiTypescript, SiPython, SiNestjs, SiExpress, SiAdonisjs, SiHtml5, SiCss3, SiTailwindcss, SiReact, SiNextdotjs, SiPrisma, SiExpo } from "react-icons/si";
-import { LiaNode, LiaAndroid } from "react-icons/lia";
+import { LiaNode } from "react-icons/lia";
 import { BiLogoPostgresql, BiLogoAndroid } from "react-icons/bi";
 import React from "react";
 

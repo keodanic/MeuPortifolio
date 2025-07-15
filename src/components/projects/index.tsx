@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { BiLogoAndroid, BiLogoPostgresql } from "react-icons/bi";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
-import { SiExpo, SiExpress, SiJavascript, SiNestjs, SiNextdotjs, SiPrisma, SiReact, SiTailwindcss, SiTypescript } from "react-icons/si";
+import { SiExpo, SiExpress, SiNestjs, SiNextdotjs, SiPrisma, SiReact, SiTailwindcss, SiTypescript } from "react-icons/si";
 import Image from "next/image";
 
 const DivProjects = () => {
@@ -13,21 +13,31 @@ const DivProjects = () => {
       id: "freelant",
       name: "FREELANT",
       description: `App para conectar freelancers e clientes em Timon-MA`,
-      tags: [<BiLogoAndroid />, <SiExpo />, <SiReact />, <SiTypescript />, <SiNestjs />, <SiTailwindcss />, <BiLogoPostgresql />, <SiPrisma />],
+      tags: [
+        <BiLogoAndroid key="f-1" />, <SiExpo key="f-2" />, <SiReact key="f-3" />,
+        <SiTypescript key="f-4" />, <SiNestjs key="f-5" />, <SiTailwindcss key="f-6" />,
+        <BiLogoPostgresql key="f-7" />, <SiPrisma key="f-8" />
+      ],
       image: "/projects/Freelant/freelant-cadastro.png" 
     },
     {
       id: "monitoring",
       name: "Monitoring CO2",
       description: `O Any Recipe é uma aplicação desenvolvida para facilitar o cadastro, organização e gerenciamento de receitas culinárias...`,
-      tags: [<SiNextdotjs />, <SiTypescript />, <SiExpress />, <SiTailwindcss />, <BiLogoPostgresql />, <SiPrisma />],
+      tags: [
+        <SiNextdotjs key="m-1" />, <SiTypescript key="m-2" />, <SiExpress key="m-3" />,
+        <SiTailwindcss key="m-4" />, <BiLogoPostgresql key="m-5" />, <SiPrisma key="m-6" />
+      ],
       image: "/projects/MonitoringCO2/history.png" 
     },
     {
       id: "multirao",
       name: "Fundação Report",
       description: `Freela desenvolvido para uma empresa associada ao governo do Piauí que permite o cadastro.`,
-      tags: [<SiTypescript />, <SiNestjs />, <BiLogoPostgresql />, <SiPrisma />, <SiNextdotjs />],
+      tags: [
+        <SiTypescript key="r-1" />, <SiNestjs key="r-2" />, <BiLogoPostgresql key="r-3" />,
+        <SiPrisma key="r-4" />, <SiNextdotjs key="r-5" />
+      ],
       image: "/projects/Fundacao-Report/multiraoCadastro.png" 
     },
   ];
@@ -49,15 +59,16 @@ const DivProjects = () => {
                 <p className="text-sm md:text-base text-gray-300">{project.description}</p>
               </div>
               <div className="flex flex-wrap gap-2 text-xl">
-                {project.tags.map((tag, i) => (
-                  <span key={i} className="bg-blue-950 p-2 rounded-lg text-white">
+                {project.tags.map((tag) => (
+                  // Esta parte já estava certa, mas agora o "tag" já vem com a key
+                  <span className="bg-blue-950 p-2 rounded-lg text-white">
                     {tag}
                   </span>
                 ))}
               </div>
             </div>
 
-            {/* Imagem - Agora com Image do Next.js */}
+            {/* Imagem */}
             <div className="lg:w-1/3 h-48 md:h-56 relative rounded-lg overflow-hidden">
               {project.image ? (
                 <Image
