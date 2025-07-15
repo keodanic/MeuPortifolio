@@ -18,7 +18,7 @@ const DivProjects = () => {
         <SiTypescript key="f-4" />, <SiNestjs key="f-5" />, <SiTailwindcss key="f-6" />,
         <BiLogoPostgresql key="f-7" />, <SiPrisma key="f-8" />
       ],
-      image: "/projects/Freelant/freelant-cadastro.png" 
+      image: "/projects/Freelant/freelantCadastro.png" 
     },
     {
       id: "monitoring",
