@@ -2,6 +2,11 @@
 import ProjectCard from "@/components/projectCard";
 import projectsData from "@/data/projects.json";
 
+export const metadata = {
+  title: 'Victor Daniel | Projetos',
+  description: 'Portfólio profissional com meus projetos.',
+}
+
 export default function ProjectsPage() {
   return (
     <main className="min-h-screen py-12 px-4 sm:px-6 lg:px-8 bg-slate-100">
