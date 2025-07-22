@@ -21,7 +21,7 @@ const ContactMe = () => {
           
           {/* WhatsApp */}
           <a 
-            href="https://web.whatsapp.com/send/?phone=86981509299&text&type=phone_number&app_absent=0" 
+            href="https://wa.me/86981509299" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-blue-900 p-6 rounded-lg flex flex-col items-center text-center hover:bg-blue-800 transition-colors"
