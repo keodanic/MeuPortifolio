@@ -33,7 +33,7 @@ const ContactMe = () => {
           
           {/* LinkedIn */}
           <a 
-            href="https://linkedin.com/in/victor-daniel-santos-cardoso-ab0787344/" 
+            href="www.linkedin.com/in/victordaniel-dev" 
             target="_blank" 
             rel="noopener noreferrer"
             className="bg-blue-900 p-6 rounded-lg flex flex-col items-center text-center hover:bg-blue-800 transition-colors"
